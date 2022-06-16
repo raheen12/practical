@@ -1,0 +1,487 @@
+[
+    {
+        "arguments": "./dnsrecon.py -d khaadi.com -D /home/kali/Desktop/subdomains1000.txt -t brt -j /home/kali/Desktop/subip.txt",
+        "date": "2022-06-16 07:47:42.074924",
+        "type": "ScanInfo"
+    },
+    {
+        "address": "199.232.45.124",
+        "name": "www.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "72.167.218.138",
+        "name": "mail.khaadi.com",
+        "type": "A"
+    },
+    {
+        "name": "pop.khaadi.com",
+        "target": "pop.secureserver.net",
+        "type": "CNAME"
+    },
+    {
+        "name": "pop.secureserver.net",
+        "target": "pop.vox.secureserver.net",
+        "type": "CNAME"
+    },
+    {
+        "name": "pop.vox.secureserver.net",
+        "target": "pop.us-phx.vox.secureserver.net",
+        "type": "CNAME"
+    },
+    {
+        "address": "68.178.252.117",
+        "name": "pop.us-phx.vox.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "72.167.218.138",
+        "name": "pop.us-phx.vox.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "97.74.135.10",
+        "name": "pop.us-phx.vox.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "97.74.135.143",
+        "name": "pop.us-phx.vox.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "173.201.192.129",
+        "name": "pop.us-phx.vox.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "173.201.192.158",
+        "name": "pop.us-phx.vox.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "173.201.193.97",
+        "name": "pop.us-phx.vox.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "173.201.193.240",
+        "name": "pop.us-phx.vox.secureserver.net",
+        "type": "A"
+    },
+    {
+        "name": "webmail.khaadi.com",
+        "target": "webmail.secureserver.net",
+        "type": "CNAME"
+    },
+    {
+        "name": "webmail.secureserver.net",
+        "target": "email.secureserver.net",
+        "type": "CNAME"
+    },
+    {
+        "address": "173.201.192.20",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "173.201.192.133",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "173.201.192.148",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "173.201.193.5",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "173.201.193.20",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "173.201.193.133",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "173.201.193.148",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "45.40.130.40",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "45.40.130.41",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "45.40.140.6",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "68.178.252.5",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "68.178.252.20",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "68.178.252.133",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "68.178.252.148",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "173.201.192.5",
+        "name": "email.secureserver.net",
+        "type": "A"
+    },
+    {
+        "name": "smtp.khaadi.com",
+        "target": "smtp.secureserver.net",
+        "type": "CNAME"
+    },
+    {
+        "address": "72.167.238.29",
+        "name": "smtp.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "68.178.213.37",
+        "name": "smtp.secureserver.net",
+        "type": "A"
+    },
+    {
+        "address": "68.178.213.203",
+        "name": "smtp.secureserver.net",
+        "type": "A"
+    },
+    {
+        "name": "autodiscover.khaadi.com",
+        "target": "autodiscover.outlook.com",
+        "type": "CNAME"
+    },
+    {
+        "name": "autodiscover.outlook.com",
+        "target": "autod.ha-autod.office.com",
+        "type": "CNAME"
+    },
+    {
+        "name": "autod.ha-autod.office.com",
+        "target": "autod.ms-acdc-autod.office.com",
+        "type": "CNAME"
+    },
+    {
+        "address": "52.98.61.56",
+        "name": "autod.ms-acdc-autod.office.com",
+        "type": "A"
+    },
+    {
+        "address": "52.98.95.216",
+        "name": "autod.ms-acdc-autod.office.com",
+        "type": "A"
+    },
+    {
+        "address": "52.98.32.8",
+        "name": "autod.ms-acdc-autod.office.com",
+        "type": "A"
+    },
+    {
+        "address": "52.98.61.40",
+        "name": "autod.ms-acdc-autod.office.com",
+        "type": "A"
+    },
+    {
+        "name": "autodiscover.khaadi.com",
+        "target": "autodiscover.outlook.com",
+        "type": "CNAME"
+    },
+    {
+        "name": "autodiscover.outlook.com",
+        "target": "autod.ha-autod.office.com",
+        "type": "CNAME"
+    },
+    {
+        "name": "autod.ha-autod.office.com",
+        "target": "autod.ms-acdc-autod.office.com",
+        "type": "CNAME"
+    },
+    {
+        "address": "2603:1046:c0c:815::8",
+        "name": "autod.ms-acdc-autod.office.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "2603:1046:c0c:2::8",
+        "name": "autod.ms-acdc-autod.office.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "2603:1046:c0c:8::8",
+        "name": "autod.ms-acdc-autod.office.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "2603:1046:c0c:814::8",
+        "name": "autod.ms-acdc-autod.office.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "199.232.45.124",
+        "name": "staging.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "125.209.121.195",
+        "name": "helpdesk.khaadi.com",
+        "type": "A"
+    },
+    {
+        "name": "sip.khaadi.com",
+        "target": "sipdir.online.lync.com",
+        "type": "CNAME"
+    },
+    {
+        "address": "52.113.64.147",
+        "name": "sipdir.online.lync.com",
+        "type": "A"
+    },
+    {
+        "name": "sip.khaadi.com",
+        "target": "sipdir.online.lync.com",
+        "type": "CNAME"
+    },
+    {
+        "address": "2603:1047:0:1::b",
+        "name": "sipdir.online.lync.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "2603:1047:0:2::b",
+        "name": "sipdir.online.lync.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "2603:1047:0:8::f",
+        "name": "sipdir.online.lync.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "2603:1047:0:9::f",
+        "name": "sipdir.online.lync.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "104.16.206.86",
+        "name": "email.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "104.16.207.86",
+        "name": "email.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "104.16.208.86",
+        "name": "email.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "104.16.209.86",
+        "name": "email.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "104.16.210.86",
+        "name": "email.khaadi.com",
+        "type": "A"
+    },
+    {
+        "name": "lyncdiscover.khaadi.com",
+        "target": "webdir.online.lync.com",
+        "type": "CNAME"
+    },
+    {
+        "address": "52.113.64.150",
+        "name": "webdir.online.lync.com",
+        "type": "A"
+    },
+    {
+        "name": "lyncdiscover.khaadi.com",
+        "target": "webdir.online.lync.com",
+        "type": "CNAME"
+    },
+    {
+        "address": "2603:1047:0:1::e",
+        "name": "webdir.online.lync.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "2603:1047:0:2::e",
+        "name": "webdir.online.lync.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "2603:1047:0:8::12",
+        "name": "webdir.online.lync.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "2603:1047:0:9::12",
+        "name": "webdir.online.lync.com",
+        "type": "AAAA"
+    },
+    {
+        "address": "136.143.190.199",
+        "name": "jobs.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "199.232.45.124",
+        "name": "ca.khaadi.com",
+        "type": "A"
+    },
+    {
+        "name": "msoid.khaadi.com",
+        "target": "clientconfig.microsoftonline-p.net",
+        "type": "CNAME"
+    },
+    {
+        "name": "clientconfig.microsoftonline-p.net",
+        "target": "a.privatelink.msidentity.com",
+        "type": "CNAME"
+    },
+    {
+        "name": "a.privatelink.msidentity.com",
+        "target": "prda.aadg.msidentity.com",
+        "type": "CNAME"
+    },
+    {
+        "name": "prda.aadg.msidentity.com",
+        "target": "www.tm.a.prd.aadg.trafficmanager.net",
+        "type": "CNAME"
+    },
+    {
+        "address": "40.126.17.135",
+        "name": "www.tm.a.prd.aadg.trafficmanager.net",
+        "type": "A"
+    },
+    {
+        "address": "20.190.145.140",
+        "name": "www.tm.a.prd.aadg.trafficmanager.net",
+        "type": "A"
+    },
+    {
+        "address": "20.190.145.141",
+        "name": "www.tm.a.prd.aadg.trafficmanager.net",
+        "type": "A"
+    },
+    {
+        "address": "20.190.145.143",
+        "name": "www.tm.a.prd.aadg.trafficmanager.net",
+        "type": "A"
+    },
+    {
+        "address": "20.190.145.160",
+        "name": "www.tm.a.prd.aadg.trafficmanager.net",
+        "type": "A"
+    },
+    {
+        "address": "40.126.17.131",
+        "name": "www.tm.a.prd.aadg.trafficmanager.net",
+        "type": "A"
+    },
+    {
+        "address": "40.126.17.132",
+        "name": "www.tm.a.prd.aadg.trafficmanager.net",
+        "type": "A"
+    },
+    {
+        "address": "40.126.17.134",
+        "name": "www.tm.a.prd.aadg.trafficmanager.net",
+        "type": "A"
+    },
+    {
+        "address": "199.232.45.124",
+        "name": "us.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "199.232.45.124",
+        "name": "qa.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "199.232.45.124",
+        "name": "uk.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "185.151.30.148",
+        "name": "careers.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "52.224.24.205",
+        "name": "track.khaadi.com",
+        "type": "A"
+    },
+    {
+        "address": "125.209.121.195",
+        "name": "bi.khaadi.com",
+        "type": "A"
+    },
+    {
+        "name": "sa.khaadi.com",
+        "target": "prod.magentocloud.map.fastly.net",
+        "type": "CNAME"
+    },
+    {
+        "address": "199.232.45.124",
+        "name": "prod.magentocloud.map.fastly.net",
+        "type": "A"
+    },
+    {
+        "name": "eu.khaadi.com",
+        "target": "prod.magentocloud.map.fastly.net",
+        "type": "CNAME"
+    },
+    {
+        "address": "199.232.45.124",
+        "name": "prod.magentocloud.map.fastly.net",
+        "type": "A"
+    },
+    {
+        "address": "162.0.209.124",
+        "name": "corporate.khaadi.com",
+        "type": "A"
+    },
+    {
+        "name": "global.khaadi.com",
+        "target": "prod.magentocloud.map.fastly.net",
+        "type": "CNAME"
+    },
+    {
+        "address": "199.232.45.124",
+        "name": "prod.magentocloud.map.fastly.net",
+        "type": "A"
+    }
+]

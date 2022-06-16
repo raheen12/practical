@@ -1,0 +1,25 @@
+[*] std: Performing General Enumeration against: khaadi.com...
+[-] DNSSEC is not configured for khaadi.com
+[*] 	 SOA ns-703.awsdns-23.net 205.251.194.191
+[*] 	 SOA ns-703.awsdns-23.net 2600:9000:5302:bf00::1
+[*] 	 NS ns-703.awsdns-23.net 205.251.194.191
+[*] 	 NS ns-703.awsdns-23.net 2600:9000:5302:bf00::1
+[*] 	 NS ns-1308.awsdns-35.org 205.251.197.28
+[*] 	 NS ns-1308.awsdns-35.org 2600:9000:5305:1c00::1
+[*] 	 NS ns-1918.awsdns-47.co.uk 205.251.199.126
+[*] 	 NS ns-1918.awsdns-47.co.uk 2600:9000:5307:7e00::1
+[*] 	 NS ns-492.awsdns-61.com 205.251.193.236
+[*] 	 NS ns-492.awsdns-61.com 2600:9000:5301:ec00::1
+[*] 	 MX khaadi-com.mail.protection.outlook.com 104.47.51.138
+[*] 	 MX khaadi-com.mail.protection.outlook.com 104.47.8.36
+[*] 	 MX khaadi.in.tmes-sg.trendmicro.com 13.213.174.133
+[*] 	 MX khaadi.in.tmes-sg.trendmicro.com 13.213.174.134
+[*] 	 MX in.hes.trendmicro.com 54.219.191.20
+[*] 	 MX in.hes.trendmicro.com 54.219.191.21
+[*] 	 A khaadi.com 151.101.129.124
+[*] 	 A khaadi.com 151.101.193.124
+[*] 	 A khaadi.com 151.101.1.124
+[*] 	 A khaadi.com 151.101.65.124
+[*] 	 TXT _dmarc.khaadi.com v=DMARC1; p=quarantine; rua=mailto:dmarc@khaadi.com; pct=100
+[*] Enumerating SRV Records
+[+] 0 Records Found
