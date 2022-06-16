@@ -16,6 +16,6 @@ echo
 echo "--------------BRUTE HOST OF SUBDOMINS-----------"
 dnsrecon -d $a -D /home/kali/Desktop/subdomains1000.txt -t brt -j /home/kali/Desktop/subip.txt
 echo
-#ip.txt for saving results of hidden ips in file
+#subip.txt for saving results of brute hosts in file
 
 echo "********--THE END--************"
